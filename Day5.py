@@ -48,10 +48,12 @@ print(add)
 
 # use a loop to print only the numbers greater than 5 in a tuple
 num3 = (5, 10, 15, 20, 40)
-for num3 in num3:
-    if num3 > 5:
-        print(num3)
-    else :
+found = False
+for num in num3:
+    if num > 5:
+        found = True
+        print(num)
+if not found :
         print("No numbers found greater than 5 in the tuple.")    
 
         
