@@ -9,5 +9,6 @@ Each file is a small task or challenge to help me understand the basics of Pytho
 - ✅ Day 3: Conditions and user inputs
 - ✅ Day 4: List functions and methods
 - ✅ Day 5: Tuple functions and methods
+- ✅ Day 6: Functions
 
 
