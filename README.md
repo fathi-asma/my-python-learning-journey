@@ -10,5 +10,6 @@ Each file is a small task or challenge to help me understand the basics of Pytho
 - ✅ Day 4: List functions and methods
 - ✅ Day 5: Tuple functions and methods
 - ✅ Day 6: Functions
+- ✅ Day 7: IF Statements 
 
 
