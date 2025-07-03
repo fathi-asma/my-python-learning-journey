@@ -1,3 +1,4 @@
+# Question1
 # Calculator with Conditions.
 def get_numbers():
    num1 = int(input("Enter the first number: "))
@@ -30,7 +31,57 @@ def calculation():
         print("Invalid operation.")
 
     print ("Result: " , total)
-calculation()        
+calculation()    
+
+
+# Question 2 
+# Get user input for age.
+def get_age():
+    age = (int(input("Enter your age: ")))
+    return age
+
+# Use if-elif-else to classify
+def Age_group_checker():
+    age = get_age()
+
+    if(age < 13):
+        print("child.")
+    elif(13 <= age < 20):
+        print("Teen")
+    elif(20 <= age < 60):
+        print("Adult") 
+    elif(age >= 60):
+        print("senior") 
+    else :
+        print("Invalid age.")
+Age_group_checker()  
+
+# Question 3  
+def shopping_list():
+    items = ("bag", "shoes", "bottles", "back covers", "toys")
+    return items
+
+# Ask the user to enter an item name.
+def item_name():
+    item = input("Enter the item: ")
+    return item
+
+# use a condition to check if it's in the list.
+def check_Available_notAvailable():
+    items = shopping_list()
+    item = item_name()
+
+    if item in items:
+        print("Available.")
+    else :
+        print("Not Availble.")    
+check_Available_notAvailable()        
+
+
+
+                      
+
+
 
 
     
