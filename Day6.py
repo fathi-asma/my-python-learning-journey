@@ -4,47 +4,47 @@ def greet():
 greet()
 
 # write a function that takes user name as input and print greeting 
-def name():
+def greet_user(user):
       print("Hello!", user)
-name() 
-user = input("Enter your name: ")
+greet_user(input("Enter the name: "))    
+
 
 # create a function that takes two numbers and prints their sum
-def num(num1,num2):
-     sum = (int(num1)+ int(num2))
+def display_sumation(number1,number2):
+     sum = (int(number1)+ int(number2))
      print("sumation is: ", sum)
-num(input("Enter number 1: "), (input("Enter number two: ")))
+display_sumation(input("Enter number 1: "), (input("Enter number two: ")))
 
 
 # Create a function that takes a number and returns its square.
-def squ(num):
+def square(num):
      result = int(num) * int(num)
      print("Square is:" , result)
-squ(input("Enter the number: "))   
+square(input("Enter the number: "))   
 
 # Write a function to check if a number is even or odd.
-def check(num):
+def check_even_or_odd(num):
      if int(num) % 2 == 0 :
           print("even")
      else :
           print("odd")
-check(input("Enter the number: "))
+check_even_or_odd(input("Enter the number: "))
 
 # Write a function that takes a list of numbers and returns the total sum.
-def print(num):
+def print_number(num):
      num_list = [int(x) for x in num.split()]
      total = sum(num_list)
      print(total)
-print(input("Enter numbers: "))  
+print_number(input("Enter numbers: "))  
 
 # Create a function that returns the largest number from three inputs.
-def largest(num1,num2,num3):
+def find_largest_number(num1,num2,num3):
      largest_number = max(int(num1),int(num2),int(num3))
      print("largest number is: ", largest_number)
-largest(input("Enter the first number: "), input("Enter the second number: "),input("Enter the third number: "))  
+find_largest_number(input("Enter the first number: "), input("Enter the second number: "),input("Enter the third number: "))  
 
 # Write a function that takes a string and returns the number of vowels in it
-def vowels_find(word):
+def count_vowels(word):
      vowels = "aeiouAEIOU"
      count = 0
      for char in word:
@@ -54,22 +54,22 @@ def vowels_find(word):
             
 # three line mode
 result1 = input("Enter the word: ")
-find = vowels_find(result1)       
+find = count_vowels(result1)       
 print("Number of vowels: ", find)
 
 # two line mode
 result2 = input("Enter the word: ")
-print("Number of vowels: ", vowels_find(result2))
+print("Number of vowels: ", count_vowels(result2))
 
 # one line mode
-result3 = input("Enter the word: ", vowels_find(input("Enter the word: ")))
+result3 = input("Enter the word: ", count_vowels(input("Enter the word: ")))
 
 
 # Write a function that prints numbers from 1 to 10 using a loop.
-def number():
+def print_numbers():
      for i in range(1,11):
           print(i)
-number()   
+print_numbers()   
 
 # Function to check if a number is a prime number
 def is_prime(num):
@@ -81,7 +81,7 @@ def is_prime(num):
      return True
 
 number = int(input("Enter a number: "))
-if is_prime(num):
+if is_prime(number):
      print(number, "is a prime number")
 else :
       print(number, "is not a prime number")     
