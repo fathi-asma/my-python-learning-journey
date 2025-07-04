@@ -1,4 +1,3 @@
-'''
 # Question1
 # Calculator with Conditions.
 def get_numbers():
@@ -138,7 +137,6 @@ if average > 50 :
     print("Pass.")
 else :
     print("Fail.")   
-    ''' 
 
 # Task: Student Report Generator.
 # Takes input for a student's name.
