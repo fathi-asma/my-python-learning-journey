@@ -1,4 +1,3 @@
-'''
 # Question1
 # Calculator with Conditions.
 def get_numbers():
@@ -107,7 +106,7 @@ def check_even(number) :
     else :
         print("number is odd.")    
 check_even(number)
-'''
+
 
 # Question 6
 
@@ -125,7 +124,7 @@ def total_marks():
     print("Total marks: ", total)
     return total
 
-#  Calculate average u
+#  Calculate average 
 def average_marks():
     total = total_marks()
     average = total/3.0
