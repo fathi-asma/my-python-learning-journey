@@ -1,3 +1,4 @@
+'''
 # Question1
 # Calculator with Conditions.
 def get_numbers():
@@ -75,7 +76,72 @@ def check_Available_notAvailable():
         print("Available.")
     else :
         print("Not Availble.")    
-check_Available_notAvailable()        
+check_Available_notAvailable() 
+
+# Question 4
+
+# Create a tuple of 5 fruits.
+fruits = ("Apple", "Banana", "kiwi", "orange", "grapes")
+
+# Print the first and last fruit using index.
+print(fruits[0])
+print(fruits[4])
+
+# Use a function that accepts the tuple and prints items one by one using a loop.
+def print_fruits(fruits_tuple):
+    print("All the fruits in tuple: ")
+    for fruit in fruits_tuple:
+        print(fruit)
+print_fruits(fruits)  
+
+
+# Question 5
+
+# Ask the user to enter a number.
+number = int(input("Enter the number: "))
+
+# Create a function check_even(num) that returns whether the number is even or odd.
+def check_even(number) :
+    if (number % 2 == 0):
+        print("number is even")
+    else :
+        print("number is odd.")    
+check_even(number)
+'''
+
+# Question 6
+
+# Ask the user to input marks for 3 subject
+subject1_mark = int(input("Enter the first subject marks: "))
+subject2_mark = int(input("Enter the second subject marks: "))
+subject3_mark = int(input("Enter the third subject marks: "))
+
+# Store in a list.
+three_subject_marks = [subject1_mark, subject2_mark, subject3_mark]
+
+# Calculate total function.
+def total_marks():
+    total = sum(three_subject_marks)
+    print("Total marks: ", total)
+    return total
+
+#  Calculate average u
+def average_marks():
+    total = total_marks()
+    average = total/3.0
+    print("Average marks: " , average)
+    return average
+
+# Use if to check if the average is above 50 → "Pass", else "Fail".
+average = average_marks()
+if average > 50 :
+    print("Pass.")
+else :
+    print("Fail.")    
+
+
+
+
 
 
 
