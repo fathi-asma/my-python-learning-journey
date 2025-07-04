@@ -1,3 +1,4 @@
+'''
 # Question1
 # Calculator with Conditions.
 def get_numbers():
@@ -136,7 +137,70 @@ average = average_marks()
 if average > 50 :
     print("Pass.")
 else :
-    print("Fail.")    
+    print("Fail.")   
+    ''' 
+
+# Task: Student Report Generator.
+# Takes input for a student's name.
+student_name = input("Enter the student name: ")
+
+# Asks for marks in 3 subjects (Math, Science, English).
+mark_Math = int(input("Enter the mark for maths subject: "))
+mark_science = int(input("Enter the mark for science subject: "))
+mark_english = int(input("Enter the mark for english subject: "))
+
+#  Stores the marks in a list.
+marks = [mark_Math, mark_science, mark_english]
+
+# Calculates total and average using functions.
+def total_marks():
+    total = sum(marks)
+    print("The total of the mark is: ", total)
+    return total
+
+def marks_average(total):
+    average = total/3.0
+    print("Average of the mark is: ", average)
+    return average
+
+def check_pass_fail(average):
+    if average > 50 :
+        return ("pass")
+    else :
+        return ("Fail") 
+
+def grade(average):
+    if average > 75 :
+       return ("A")
+    elif average > 60 or average < 74 :
+        return ("B")
+    elif average > 50 or average < 59 :
+        return ("C")
+    elif average < 50 :
+        return ("F")
+    else :
+        return ("Invalide garde.") 
+    
+total = total_marks()
+average = marks_average(total)
+result = check_pass_fail(average)
+grade_result = grade(average)
+
+print("\n------ Student Report ------")
+print("Student Name:", student_name)
+print("Marks:", marks)
+print("Total Marks:", total)
+print("Average Marks:", round(average, 2))
+print("Result:", result)
+print("Grade:", grade_result)    
+                
+
+
+
+
+
+
+
 
 
 
