@@ -60,7 +60,31 @@ for item in items:
         item_found = True
         break
 if not item_found:
-    print("Item not available.")    
+    print("Item not available.")   
+   
+# Traffic Light System
+#  Ask user to enter traffic light color
+traffic_light = input("Enter color: ")
+
+if traffic_light == "Red":
+    print("Stop.")
+elif traffic_light == "Yellow":
+    print("Slow down.")
+elif traffic_light == "Green":
+    print("Go.")
+else :
+    print("Invalid color.")     
+
+# Password Strength
+# Ask user to enter password
+password = (input("Enter the password: "))
+
+if len(password) < 6:
+    print("Password too short.")
+elif password.isdigit():
+    print("Add numbers.")
+else:
+    print("Strong password.")        
 
 
 
