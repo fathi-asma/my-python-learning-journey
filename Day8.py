@@ -24,13 +24,13 @@ def calculation():
     elif(operation == "Divide" or operation == "divide"):
         if num2 != 0:
             total = num1 / num2
-        else :
+        else:
             print("cant not divide by zero.")
             return 
-    else :
+    else:
         print("Invalid operation.")
 
-    print ("Result: " , total)
+    print ("Result: ", total)
 calculation()    
 
 
@@ -52,7 +52,7 @@ def Age_group_checker():
         print("Adult") 
     elif(age >= 60):
         print("senior") 
-    else :
+    else:
         print("Invalid age.")
 Age_group_checker()  
 
@@ -73,7 +73,7 @@ def check_Available_notAvailable():
 
     if item in items:
         print("Available.")
-    else :
+    else:
         print("Not Availble.")    
 check_Available_notAvailable() 
 
@@ -100,10 +100,10 @@ print_fruits(fruits)
 number = int(input("Enter the number: "))
 
 # Create a function check_even(num) that returns whether the number is even or odd.
-def check_even(number) :
+def check_even(number):
     if (number % 2 == 0):
         print("number is even")
-    else :
+    else:
         print("number is odd.")    
 check_even(number)
 
@@ -133,7 +133,7 @@ def average_marks():
 
 # Use if to check if the average is above 50 → "Pass", else "Fail".
 average = average_marks()
-if average > 50 :
+if average > 50:
     print("Pass.")
 else :
     print("Fail.")   
@@ -162,13 +162,13 @@ def marks_average(total):
     return average
 
 def check_pass_fail(average):
-    if average > 50 :
+    if average > 50:
         return ("pass")
     else :
         return ("Fail") 
 
 def grade(average):
-    if average > 75 :
+    if average > 75:
        return ("A")
     elif average > 60 or average < 74 :
         return ("B")
