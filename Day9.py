@@ -31,8 +31,6 @@ print("The age is : ", age)
 print("The status is : ", status)
 print("Final Ticket price: ", final_price)
 
-
-
 #  Simple Shopping Bill Calculator
 # Displays a list of 5 available items and their prices using a tuple
 items = (("Bag", 1000), ("Shoes", 2500), ("Bottle", 500), ("Notebook", 300), ("Pen", 50))
