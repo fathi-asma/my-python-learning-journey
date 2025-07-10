@@ -14,5 +14,6 @@ Each file is a small task or challenge to help me understand the basics of Pytho
 - ✅ Day 8: Mixed Exercises
 - ✅ Day 9: IF Statments with comparisons
 - ✅ Day 10: Dictionaries
+- ✅ Day 11: while loop
 
 
