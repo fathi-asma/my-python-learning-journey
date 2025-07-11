@@ -12,7 +12,7 @@ while i <= 20:
    
 
 # ask user to enter number until type 0 then stop the loop
-while(True):
+while True:
     i = int(input("Enter the numbers and if you want to break enter 0: "))
     if(i == 0):
         print("Done")
@@ -22,7 +22,7 @@ while(True):
 
 
 # keep asking user to enter a password until they enter correct one
-while(True):
+while True:
     enter_password = input("Enter the correct password: ")
     if(enter_password == "python1234"):
         print("Successfull.")
@@ -39,10 +39,3 @@ while i <= 100:
     total += i
     i = i+1
 print("Summation: ", total)    
-         
-
-      
-
-
-
- 
