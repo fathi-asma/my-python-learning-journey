@@ -55,11 +55,4 @@ for num in numbers:
         print(num)
 if not found :
         print("No numbers found greater than 5 in the tuple.")    
-
         
-
-
-    
-
-
-

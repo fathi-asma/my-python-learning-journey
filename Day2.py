@@ -2,7 +2,7 @@
 num1 = input ("Enter the first number: ")
 num2 = input ("Enter the second number: ")
 sum = int(num1) + int(num2)
-print ("Addition (int):", sum)
+print ("Addition (int): ", sum)
 
 # Addition for decimal numbers
 num1 = input ("Enter the number 1: ")
@@ -55,12 +55,4 @@ if (sum % 2 == 0) :
     print ("even")
 else :
     print ("odd")
-
-
-
     
-
-
-
-
-

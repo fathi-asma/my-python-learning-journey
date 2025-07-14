@@ -1,4 +1,3 @@
-
 # Create a Contact Book
 contact_book = {
     "Asma" : "077 2407892",
@@ -11,7 +10,6 @@ enter_name = input("Enter the name: ")
 print(contact_book[enter_name])
 print(contact_book.get(enter_name,"invalide name.")) 
      
-
 #  Add a New Key
 student_data =  {
     "Name" : "Sara",
@@ -24,7 +22,6 @@ student_data["grade"] = "A"
 student_data["Birthday"] = "2004-6-24"
 
 print(student_data)
-
 
 # Loop Through Dictionary
 # create a dictionary of 5 fruits and their prices.
@@ -62,11 +59,11 @@ countries_with_capital = {
     "india" : "new dilli"   
 }
 country_name = input("Enter the country name: ")
-if(country_name == "sri lanka"):
+if country_name == "sri lanka":
     print(countries_with_capital["sri lanka"])
-elif(country_name == "japan"):
+elif country_name == "japan":
     print(countries_with_capital["japan"]) 
-elif(country_name == "india"):
+elif country_name == "india":
     print(countries_with_capital["india"])
 else:
     print("Not Found.")  
@@ -105,12 +102,4 @@ students = {
 # print each student marks using loop
 for student in students :
     print(students[student]["name"], students[student]["marks"])
-   
-
-           
-
-
-
-
-
-
+    

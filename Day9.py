@@ -83,19 +83,4 @@ elif password.isdigit():
     print("Add numbers.")
 else:
     print("Strong password.")        
-
-
-
-
-
     
-
-        
-        
-
-
-
-
-
-    
-

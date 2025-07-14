@@ -15,13 +15,13 @@ def calculation():
     num1, num2 = get_numbers()
     operation = get_operation()
 
-    if(operation == "Addition" or operation == "addition"):
+    if operation == "Addition" or operation == "addition":
         total = num1 + num2
-    elif(operation == "Subtracts" or operation == "subtracts"):
+    elif operation == "Subtracts" or operation == "subtracts":
         total = num1 - num2 
-    elif(operation == "Multiply" or operation == "multiply"):
+    elif operation == "Multiply" or operation == "multiply":
         total = num1 * num2 
-    elif(operation == "Divide" or operation == "divide"):
+    elif operation == "Divide" or operation == "divide":
         if num2 != 0:
             total = num1 / num2
         else:
@@ -44,13 +44,13 @@ def get_age():
 def Age_group_checker():
     age = get_age()
 
-    if(age < 13):
+    if age < 13:
         print("child.")
-    elif(13 <= age < 20):
+    elif 13 <= age < 20:
         print("Teen")
-    elif(20 <= age < 60):
+    elif 20 <= age < 60:
         print("Adult") 
-    elif(age >= 60):
+    elif age >= 60:
         print("senior") 
     else:
         print("Invalid age.")
@@ -109,7 +109,6 @@ check_even(number)
 
 
 # Question 6
-
 # Ask the user to input marks for 3 subject
 subject1_mark = int(input("Enter the first subject marks: "))
 subject2_mark = int(input("Enter the second subject marks: "))
@@ -135,7 +134,7 @@ def average_marks():
 average = average_marks()
 if average > 50:
     print("Pass.")
-else :
+else:
     print("Fail.")   
 
 # Task: Student Report Generator.
@@ -164,7 +163,7 @@ def marks_average(total):
 def check_pass_fail(average):
     if average > 50:
         return ("pass")
-    else :
+    else:
         return ("Fail") 
 
 def grade(average):
@@ -176,7 +175,7 @@ def grade(average):
         return ("C")
     elif average < 50 :
         return ("F")
-    else :
+    else:
         return ("Invalide garde.") 
     
 total = total_marks()
@@ -191,34 +190,3 @@ print("Total Marks:", total)
 print("Average Marks:", round(average, 2))
 print("Result:", result)
 print("Grade:", grade_result)    
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                      
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-  
-

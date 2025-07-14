@@ -10,7 +10,7 @@ greet_user(input("Enter the name: "))
 
 
 # create a function that takes two numbers and prints their sum
-def display_sumation(number1,number2):
+def display_sumation (number1,number2):
      sum = (int(number1)+ int(number2))
      print("sumation is: ", sum)
 display_sumation(input("Enter number 1: "), (input("Enter number two: ")))
@@ -19,12 +19,12 @@ display_sumation(input("Enter number 1: "), (input("Enter number two: ")))
 # Create a function that takes a number and returns its square.
 def square(num):
      result = int(num) * int(num)
-     print("Square is:" , result)
+     print("Square is:", result)
 square(input("Enter the number: "))   
 
 # Write a function to check if a number is even or odd.
 def check_even_or_odd(num):
-     if int(num) % 2 == 0 :
+     if int(num) % 2 == 0:
           print("even")
      else :
           print("odd")
@@ -85,13 +85,4 @@ if is_prime(number):
      print(number, "is a prime number")
 else :
       print(number, "is not a prime number")     
-
-
-
-     
-          
-               
-
-     
-
-        
+            

@@ -10,16 +10,14 @@ while i <= 20:
     print(i)
     i = i+2
    
-
 # ask user to enter number until type 0 then stop the loop
 while True:
     i = int(input("Enter the numbers and if you want to break enter 0: "))
-    if(i == 0):
+    if i == 0:
         print("Done")
         break
     else:
         print("Enter number is: ", i)
-
 
 # keep asking user to enter a password until they enter correct one
 while True:
@@ -29,7 +27,6 @@ while True:
         break
     else:
         print("Faild, try to enter correct password.") 
-
 
 # sum all numbers from 1 to 100 using while loop
 i = 1
