@@ -16,6 +16,7 @@ Each file is a small task or challenge to help me understand the basics of Pytho
 - ✅ Day 10: Dictionaries
 - ✅ Day 11: while loop
 - ✅ Day 12: For loop
+- ✅ Day 13: Exponention Function
 
 
 
