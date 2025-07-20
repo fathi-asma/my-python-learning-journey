@@ -29,7 +29,3 @@ def raise_to_power():
              result = result * base
              return result
 print("The final result is: ", raise_to_power())        
-
-
-
- 
