@@ -19,9 +19,16 @@ for col in matrix:
 for i in range(len(matrix)):
     print(matrix[i][i])
 
-# count how many odd numbers are in matrix
+# print how many odd numbers are in matrix
 for row in matrix:
     for number in row:
         if number % 2 != 0:
             print(number)
-
+        
+# count how many odd numbers are in matrix
+odd_numbers_count = 0
+for row in matrix:
+    for number in row:
+        if number % 2 != 0:
+            odd_numbers_count += 1
+print(odd_numbers_count)
